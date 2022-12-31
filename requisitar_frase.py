@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 
 def obter(termo):
 	try:
-		url = f"https://www.frasestop.com/{termo}/{random.randint(1, 999)}"
+		url = f"https://www.frasestop.com/{termo}/{random.randint(1, 99)}"
 		resposta = requests.get(url)
 		lista_frases = []
 		if resposta.status_code == 200:
