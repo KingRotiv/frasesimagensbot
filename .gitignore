@@ -1,0 +1,5 @@
+# Variáveis de ambiente locais 
+exportar_variaveis.sh
+
+# Cache
+/__pycache__
