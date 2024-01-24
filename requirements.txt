@@ -1,8 +1,4 @@
-requests
-bs4
-pyTelegramBotAPI
-
-
-
-
-
+requests==2.31.0
+bs4==0.0.2
+pyTelegramBotAPI==4.15.2
+python-dotenv==1.0.1

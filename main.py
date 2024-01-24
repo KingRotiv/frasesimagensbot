@@ -1,6 +1,9 @@
 import os
 import logging
 
+from dotenv import load_dotenv
+load_dotenv()
+
 import telebot
 from telebot.util import escape
 from telebot.types import (

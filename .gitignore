@@ -1,5 +1,6 @@
 # Variáveis de ambiente locais 
-exportar_variaveis.sh
+.env
 
-# Cache
+# Python
+/venv
 /__pycache__
